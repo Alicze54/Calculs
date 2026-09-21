@@ -42,12 +42,12 @@ namespace Calculs
                 // traitement des choix
                 if (choix != 0)
                 {
-                    switch(choix)
+                    val1 = rand.Next(1, 10);
+                    val2 = rand.Next(1, 10);
+                    switch (choix)
                     {
                         case 1:
                         // choix de l'addition
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
                         // saisie de la réponse
                             correct = false;
                             while (!correct)
@@ -77,8 +77,6 @@ namespace Calculs
 
                         case 2:
                         // choix de la multiplication
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
                         // saisie de la réponse
                             correct = false;
                             while (!correct)
